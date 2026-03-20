@@ -129,14 +129,14 @@ input[type=number]::-webkit-inner-spin-button{opacity:.5}
 .section{display:none}.section.active{display:block}
 
 /* Section header */
-.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:22px;background:#1B2A4A;border-radius:14px;padding:16px;margin-left:-16px;margin-right:-16px}
 .sec-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
-.sec-title{font-size:20px;font-weight:900;letter-spacing:-.5px;color:#1A202C}
-.sec-sub{font-size:12px;margin-top:2px;font-weight:700}
+.sec-title{font-size:20px;font-weight:900;letter-spacing:-.5px;color:#FFFFFF}
+.sec-sub{font-size:12px;margin-top:2px;font-weight:600;color:#FFFFFF}
 
 /* Cards */
 .card{background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:18px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
-.card-label{font-size:10px;color:#64748B;letter-spacing:1.5px;margin-bottom:10px;text-transform:uppercase;font-weight:800}
+.card-label{font-size:10px;color:#374151;letter-spacing:1.5px;margin-bottom:10px;text-transform:uppercase;font-weight:800}
 .formula-box{font-family:'DM Mono',monospace;font-size:14px;background:#1E293B;border:none;padding:12px 16px;border-radius:8px;margin:10px 0;color:#7DD3FC;font-weight:500}
 .tag{display:inline-block;border-radius:20px;padding:4px 12px;font-size:12px;font-weight:700}
 
@@ -152,7 +152,7 @@ tr:nth-child(even) td{background:#F8FAFC}
 .step-badge{width:64px;flex-shrink:0;background:#059669;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#FFFFFF;text-align:center;line-height:1.3;padding:4px}
 .step-body{flex:1;background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:12px 14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .step-formula{font-family:'DM Mono',monospace;font-size:13px;margin-bottom:5px;color:#1B2A4A;font-weight:600}
-.step-example{font-size:11px;color:#64748B;font-weight:500}
+.step-example{font-size:11px;color:#475569;font-weight:600}
 
 /* Mult grid */
 .mult-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
@@ -160,13 +160,13 @@ tr:nth-child(even) td{background:#F8FAFC}
 .mult-card.highlight{border-color:#EF4444;border-width:2px;background:#FFF5F5}
 .mult-num{font-size:24px;font-weight:900;font-family:'DM Mono',monospace}
 .mult-pct{font-size:17px;font-weight:700;color:#1A202C;margin:4px 0}
-.mult-desc{font-size:11px;color:#64748B;font-weight:500}
+.mult-desc{font-size:11px;color:#374151;font-weight:600}
 
 /* Target list */
 .target-row{display:flex;align-items:center;gap:12px;background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:12px 14px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
-.target-label{font-size:11px;color:#64748B;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
-.target-formula{font-size:13px;font-family:'DM Mono',monospace;color:#1B2A4A;margin-top:3px;font-weight:600}
+.target-label{font-size:11px;color:#374151;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.target-formula{font-size:13px;font-family:'DM Mono',monospace;color:#0F172A;margin-top:3px;font-weight:700}
 
 /* Checklist */
 .check-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #F1F5F9;cursor:pointer;transition:all .15s}
@@ -179,7 +179,7 @@ tr:nth-child(even) td{background:#F8FAFC}
 .check-count.ok{color:#059669;background:#F0FDF4}
 
 /* Rules list */
-.rule-item{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid #F1F5F9;font-size:13px;color:#1A202C;line-height:1.6;font-weight:500}
+.rule-item{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid #F1F5F9;font-size:13px;color:#1A202C;line-height:1.6;font-weight:600}
 .rule-item:last-child{border-bottom:none}
 .arrow{font-size:15px;margin-top:1px;flex-shrink:0}
 
@@ -191,10 +191,10 @@ tr:nth-child(even) td{background:#F8FAFC}
 
 /* Routine circles */
 .routine-grid{display:flex;gap:10px;margin-bottom:20px}
-.routine-card{flex:1;border-radius:14px;padding:18px 10px;text-align:center;border:2px solid #FECACA;background:#FFF5F5}
-.routine-num{font-size:28px;font-weight:900;color:#DC2626;font-family:'DM Mono',monospace;margin-bottom:8px}
+.routine-card{flex:1;border-radius:14px;padding:18px 10px;text-align:center;border:2px solid #BFDBFE;background:#EFF6FF}
+.routine-num{font-size:28px;font-weight:900;color:#1B2A4A;font-family:'DM Mono',monospace;margin-bottom:8px}
 .routine-title{font-size:13px;font-weight:800;color:#1A202C;margin-bottom:5px}
-.routine-sub{font-size:11px;color:#64748B;line-height:1.5;font-weight:500}
+.routine-sub{font-size:11px;color:#374151;line-height:1.5;font-weight:600}
 
 /* Supplement */
 .sup-row{display:grid;grid-template-columns:1fr 24px 1fr;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid #F1F5F9}
@@ -228,11 +228,11 @@ tr:nth-child(even) td{background:#F8FAFC}
 .nav-prev:hover{background:#E2E8F0}
 .nav-next{border-color:#0891B2;background:#E0F2FE;color:#0369A1}
 .nav-next:hover{background:#BAE6FD}
-.nav-page{font-size:12px;color:#64748B;font-weight:700}
+.nav-page{font-size:12px;color:#1A202C;font-weight:700}
 button:disabled{opacity:.3;cursor:default}
 
 /* Note */
-.note{background:#F0F9FF;border:1px solid #BAE6FD;border-radius:8px;padding:10px 14px;font-size:12px;color:#0369A1;margin-top:12px;font-weight:600}
+.note{background:#F0F9FF;border:1px solid #BAE6FD;border-radius:8px;padding:10px 14px;font-size:12px;color:#0C4A6E;margin-top:12px;font-weight:600}
 
 /* Pyramid */
 .pyr-block{border-radius:12px;padding:18px;margin-bottom:12px;border:1.5px solid}
@@ -251,11 +251,9 @@ button:disabled{opacity:.3;cursor:default}
 
 <div class="nav-wrap">
   <div class="nav-inner">
-    <button class="nav-btn active" data-id="what" style="--c:#06B6D4;color:#06B6D4">📐 ATR이란?</button>
+    <button class="nav-btn active" data-id="calc" style="--c:#06B6D4;color:#06B6D4">📐 ATR계산기</button>
     <button class="nav-btn" data-id="stoploss" style="--c:#EF4444">🛡️ 손절가</button>
-    <button class="nav-btn" data-id="position" style="--c:#10B981">💰 매수금액</button>
-    <button class="nav-btn" data-id="target" style="--c:#F59E0B">🎯 목표가</button>
-    <button class="nav-btn" data-id="pullback" style="--c:#E11D48">📉 눌림목매수</button>
+    <button class="nav-btn" data-id="pullback" style="--c:#E11D48">📉 눌림목</button>
     <button class="nav-btn" data-id="profit" style="--c:#7C3AED">💹 수익대응</button>
     <button class="nav-btn" data-id="additional" style="--c:#8B5CF6">➕ 추가매수</button>
     <button class="nav-btn" data-id="supplement" style="--c:#06B6D4">🔧 보완지표</button>
@@ -265,66 +263,86 @@ button:disabled{opacity:.3;cursor:default}
 
 <div class="content-wrap">
 
-<!-- ① ATR이란? -->
-<div class="section active" id="sec-what">
+<!-- ① ATR 통합 계산기 -->
+<div class="section active" id="sec-calc">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#DBEAFE;border:1px solid #BAE6FD">📐</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">📐</div>
     <div>
-      <div class="sec-title">ATR이란?</div>
-      <div class="sec-sub" style="color:#06B6D4">Average True Range</div>
+      <div class="sec-title">ATR 계산기</div>
+      <div class="sec-sub" style="color:#FFFFFF">손절·매수금액·목표가 한번에</div>
     </div>
   </div>
 
-  <div class="card" style="border-color:#7DD3FC;background:#EFF9FC">
-    <div class="card-label">정의</div>
-    <div style="font-size:15px;font-weight:600;color:#1A202C">종목이 하루 평균 얼마나 움직이는가 — 종목의 체온계</div>
-    <div class="formula-box" style="color:#06B6D4">ATR% = ATR(원) ÷ 현재가 × 100</div>
-  </div>
-
-  <table>
-    <thead><tr><th>ATR%</th><th>종목 유형</th><th>위험도</th></tr></thead>
-    <tbody>
-      <tr><td class="mono" style="color:#06B6D4">2% 이하</td><td>대형주 (삼성·현대차)</td><td>🟢 안정</td></tr>
-      <tr><td class="mono" style="color:#06B6D4">3~5%</td><td>중형주 일반</td><td>🟡 보통</td></tr>
-      <tr><td class="mono" style="color:#06B6D4">5~10%</td><td>소형주·보유종목 대부분</td><td>🟠 고변동</td></tr>
-      <tr><td class="mono" style="color:#06B6D4">10% 이상</td><td>테마주·급등주</td><td>🔴 위험</td></tr>
-    </tbody>
-  </table>
-  <div class="note">💡 ATR 기간 설정: ATR 14 고정 (전 세계 표준 — J. 웰레스 와일더 개발)</div>
-
-  <div class="calc-wrap" id="calc1">
-    <div class="calc-label">실시간 계산기</div>
-    <div class="calc-inputs">
-      <div class="inp-wrap"><div class="inp-label">매수가 (원)</div><input class="inp" type="number" id="c1_price" value="35400" step="100" oninput="calcAll()"></div>
-      <div class="inp-wrap"><div class="inp-label">ATR 14 (원)</div><input class="inp" type="number" id="c1_atr" value="2766" step="10" oninput="calcAll()"></div>
-      <div class="inp-wrap"><div class="inp-label">총자산 (원)</div><input class="inp" type="number" id="c1_asset" value="100000000" step="1000000" oninput="calcAll()"></div>
-      <div class="inp-wrap">
-        <div class="inp-label">ATR 배수</div>
-        <div class="mult-btns">
-          <button class="mult-btn" data-m="1.0" onclick="setMult(this)">×1.0</button>
-          <button class="mult-btn active" data-m="1.5" onclick="setMult(this)">×1.5</button>
-          <button class="mult-btn" data-m="2.0" onclick="setMult(this)">×2.0</button>
-        </div>
+  <!-- ATR 개념 요약 -->
+  <div class="card" style="border-color:#7DD3FC;background:#EFF9FC;margin-bottom:14px">
+    <div class="card-label">ATR이란</div>
+    <div style="font-size:14px;font-weight:600;color:#1A202C;margin-bottom:8px">종목이 하루 평균 얼마나 움직이는가 — 종목의 체온계</div>
+    <div class="formula-box" style="color:#06B6D4;margin:0">ATR% = ATR(원) ÷ 현재가 × 100</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px">
+      <div style="text-align:center;padding:6px;background:white;border-radius:6px;border:1px solid #E2E8F0">
+        <div style="font-size:10px;color:#059669;font-weight:800">2% 이하</div><div style="font-size:10px;color:#64748B">대형주 🟢</div>
+      </div>
+      <div style="text-align:center;padding:6px;background:white;border-radius:6px;border:1px solid #E2E8F0">
+        <div style="font-size:10px;color:#D97706;font-weight:800">3~5%</div><div style="font-size:10px;color:#64748B">중형주 🟡</div>
+      </div>
+      <div style="text-align:center;padding:6px;background:white;border-radius:6px;border:1px solid #E2E8F0">
+        <div style="font-size:10px;color:#EA580C;font-weight:800">5~10%</div><div style="font-size:10px;color:#64748B">소형주 🟠</div>
+      </div>
+      <div style="text-align:center;padding:6px;background:white;border-radius:6px;border:1px solid #E2E8F0">
+        <div style="font-size:10px;color:#DC2626;font-weight:800">10%↑</div><div style="font-size:10px;color:#64748B">테마주 🔴</div>
       </div>
     </div>
+  </div>
+
+  <!-- 통합 계산기 -->
+  <div class="calc-wrap">
+    <div class="calc-label">통합 실시간 계산기</div>
+    <div class="calc-inputs">
+      <div class="inp-wrap"><div class="inp-label">매수가 (원)</div><input class="inp" type="number" id="m_price" value="35400" step="100" oninput="calcMain()"></div>
+      <div class="inp-wrap"><div class="inp-label">ATR 14 (원)</div><input class="inp" type="number" id="m_atr" value="2766" step="10" oninput="calcMain()"></div>
+      <div class="inp-wrap"><div class="inp-label">총자산 (원)</div><input class="inp" type="number" id="m_asset" value="100000000" step="1000000" oninput="calcMain()"></div>
+      <div class="inp-wrap"><div class="inp-label">현재 최고가 (원)</div><input class="inp" type="number" id="m_high" value="35400" step="100" oninput="calcMain()"></div>
+    </div>
+    <div class="inp-wrap" style="margin-bottom:14px">
+      <div class="inp-label">ATR 배수 (손절 기준)</div>
+      <div class="mult-btns">
+        <button class="mult-btn" data-m="1.0" onclick="setMainMult(this)">단기 ×1.0</button>
+        <button class="mult-btn active" data-m="1.5" onclick="setMainMult(this)">스윙 ×1.5 ★</button>
+        <button class="mult-btn" data-m="2.0" onclick="setMainMult(this)">중기 ×2.0</button>
+      </div>
+    </div>
+
+    <!-- 결과 그룹 1: 핵심 -->
+    <div style="font-size:10px;color:#64748B;font-weight:800;letter-spacing:1px;margin-bottom:6px">손절 & 매수</div>
+    <div class="calc-results" style="margin-bottom:10px">
+      <div class="res-card" style="background:#F0F9FF;border-color:#7DD3FC"><div class="res-label">ATR%</div><div class="res-val" id="m_atrpct" style="color:#06B6D4">-</div><div class="res-sub">하루 변동폭</div></div>
+      <div class="res-card" style="background:#FEF2F2;border-color:#FCA5A5"><div class="res-label">손절가</div><div class="res-val" id="m_slprice" style="color:#DC2626">-</div><div class="res-sub" id="m_slpct">-</div></div>
+      <div class="res-card" style="background:#F0FDF4;border-color:#86EFAC"><div class="res-label">매수금액</div><div class="res-val" id="m_amt" style="color:#059669">-</div><div class="res-sub" id="m_qty">-</div></div>
+    </div>
+
+    <!-- 결과 그룹 2: 목표가 -->
+    <div style="font-size:10px;color:#64748B;font-weight:800;letter-spacing:1px;margin-bottom:6px">목표가 (역피라미딩 50→30→20%)</div>
+    <div class="calc-results" style="margin-bottom:10px">
+      <div class="res-card" style="background:#FEF9C3;border-color:#FDE68A"><div class="res-label">1차 (×1.5)</div><div class="res-val" id="m_t1" style="color:#D97706">-</div><div class="res-sub" id="m_t1p">50% 매도</div></div>
+      <div class="res-card" style="background:#FEFCE8;border-color:#FCD34D"><div class="res-label">2차 (×2.0)</div><div class="res-val" id="m_t2" style="color:#B45309">-</div><div class="res-sub" id="m_t2p">30% 매도</div></div>
+      <div class="res-card" style="background:#FFF7ED;border-color:#FED7AA"><div class="res-label">3차 (×3.0)</div><div class="res-val" id="m_t3" style="color:#92400E">-</div><div class="res-sub" id="m_t3p">20% 매도</div></div>
+    </div>
+
+    <!-- 결과 그룹 3: 트레일링·RR -->
+    <div style="font-size:10px;color:#64748B;font-weight:800;letter-spacing:1px;margin-bottom:6px">트레일링 & 지표</div>
     <div class="calc-results">
-      <div class="res-card" style="background:#F0F9FF;border-color:#7DD3FC"><div class="res-label">ATR%</div><div class="res-val" id="r_atrpct" style="color:#06B6D4">-</div><div class="res-sub">하루 변동폭</div></div>
-      <div class="res-card" style="background:#FEF2F2;border-color:#FCA5A5"><div class="res-label">손절폭</div><div class="res-val" id="r_slpct" style="color:#EF4444">-</div><div class="res-sub" id="r_slprice">-</div></div>
-      <div class="res-card" style="background:#F0FDF4;border-color:#86EFAC"><div class="res-label">매수금액</div><div class="res-val" id="r_amt" style="color:#10B981">-</div><div class="res-sub" id="r_qty">-</div></div>
-      <div class="res-card" style="background:#FEF9C3;border-color:#FDE68A"><div class="res-label">1차 목표</div><div class="res-val" id="r_t1" style="color:#D97706">-</div><div class="res-sub" id="r_t1p">ATR×1.5</div></div>
-      <div class="res-card" style="background:#FEFCE8;border-color:#FCD34D"><div class="res-label">2차 목표</div><div class="res-val" id="r_t2" style="color:#B45309">-</div><div class="res-sub" id="r_t2p">ATR×2.0</div></div>
-      <div class="res-card" style="background:#FFF7ED;border-color:#FED7AA"><div class="res-label">3차 목표</div><div class="res-val" id="r_t3" style="color:#92400E">-</div><div class="res-sub" id="r_t3p">ATR×3.0</div></div>
+      <div class="res-card" style="background:#FEF2F2;border-color:#FECACA"><div class="res-label">트레일링 손절</div><div class="res-val" id="m_trail" style="color:#DC2626">-</div><div class="res-sub">최고가−ATR</div></div>
+      <div class="res-card" style="background:#F0FDF4;border-color:#6EE7B7"><div class="res-label">RR비율</div><div class="res-val" id="m_rr" style="color:#059669">-</div><div class="res-sub">3차 기준</div></div>
+      <div class="res-card" style="background:#F8FAFC;border-color:#E2E8F0"><div class="res-label">허용손실</div><div class="res-val" id="m_loss" style="color:#374151">-</div><div class="res-sub">총자산×1%</div></div>
     </div>
   </div>
 </div>
-
-<!-- ② 손절가 -->
 <div class="section" id="sec-stoploss">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#FFF5F5;border:1px solid #FECACA">🛡️</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">🛡️</div>
     <div>
       <div class="sec-title">손절가 공식</div>
-      <div class="sec-sub" style="color:#EF4444">매수 시점에 확정 → 절대 변경 금지</div>
+      <div class="sec-sub" style="color:#FFFFFF">매수 시점에 확정 → 절대 변경 금지</div>
     </div>
   </div>
 
@@ -352,93 +370,14 @@ button:disabled{opacity:.3;cursor:default}
   </div>
 </div>
 
-<!-- ③ 매수금액 -->
-<div class="section" id="sec-position">
-  <div class="sec-head">
-    <div class="sec-icon" style="background:#F0FDF4;border:1px solid #A7F3D0">💰</div>
-    <div>
-      <div class="sec-title">매수금액 공식</div>
-      <div class="sec-sub" style="color:#10B981">리스크 1% 원칙</div>
-    </div>
-  </div>
-
-  <div class="step-row"><div class="step-badge">STEP 1</div><div class="step-body"><div class="step-formula" style="color:#10B981">허용손실 = 총자산 × 1%</div><div class="step-example">예) 1,000만원 × 1% = 10만원</div></div></div>
-  <div class="step-row"><div class="step-badge">STEP 2</div><div class="step-body"><div class="step-formula" style="color:#10B981">손절폭% = ATR × 1.5 ÷ 매수가</div><div class="step-example">예) 2,766 × 1.5 ÷ 35,400 = 11.7%</div></div></div>
-  <div class="step-row"><div class="step-badge">STEP 3</div><div class="step-body"><div class="step-formula" style="color:#10B981">매수금액 = 허용손실 ÷ 손절폭%</div><div class="step-example">예) 10만원 ÷ 11.7% = 854,700원</div></div></div>
-  <div class="step-row"><div class="step-badge">STEP 4</div><div class="step-body"><div class="step-formula" style="color:#10B981">매수수량 = 매수금액 ÷ 매수가</div><div class="step-example">예) 854,700 ÷ 35,400 = 24주</div></div></div>
-
-  <div class="card" style="background:#F0FDF4;border-color:#6EE7B7;text-align:center;margin-top:16px">
-    <div style="font-size:14px;font-weight:700;color:#10B981">ATR 크면 매수금액 줄인다 — 모든 매매의 손실금액이 동일해진다</div>
-  </div>
-
-  <div class="calc-wrap">
-    <div class="calc-label">실시간 계산기</div>
-    <div class="calc-inputs">
-      <div class="inp-wrap"><div class="inp-label">매수가 (원)</div><input class="inp" type="number" id="p_price" value="35400" step="100" oninput="calcPos()"></div>
-      <div class="inp-wrap"><div class="inp-label">ATR 14 (원)</div><input class="inp" type="number" id="p_atr" value="2766" step="10" oninput="calcPos()"></div>
-      <div class="inp-wrap"><div class="inp-label">총자산 (원)</div><input class="inp" type="number" id="p_asset" value="100000000" step="1000000" oninput="calcPos()"></div>
-      <div class="inp-wrap">
-        <div class="inp-label">ATR 배수</div>
-        <div class="mult-btns">
-          <button class="mult-btn" data-m="1.0" onclick="setPMult(this)">×1.0</button>
-          <button class="mult-btn active" data-m="1.5" onclick="setPMult(this)">×1.5</button>
-          <button class="mult-btn" data-m="2.0" onclick="setPMult(this)">×2.0</button>
-        </div>
-      </div>
-    </div>
-    <div class="calc-results">
-      <div class="res-card" style="background:#FEF2F2;border-color:#FCA5A5"><div class="res-label">허용손실</div><div class="res-val" id="p_loss" style="color:#EF4444">-</div><div class="res-sub">총자산×1%</div></div>
-      <div class="res-card" style="background:#FEF2F2;border-color:#FCA5A5"><div class="res-label">손절폭</div><div class="res-val" id="p_slpct" style="color:#EF4444">-</div><div class="res-sub" id="p_slprice">-</div></div>
-      <div class="res-card" style="background:#F0FDF4;border-color:#86EFAC"><div class="res-label">✅ 매수금액</div><div class="res-val" id="p_amt" style="color:#10B981">-</div><div class="res-sub" id="p_qty">-</div></div>
-    </div>
-  </div>
-</div>
-
-<!-- ④ 목표가 -->
-<div class="section" id="sec-target">
-  <div class="sec-head">
-    <div class="sec-icon" style="background:#FFFBEB;border:1px solid #FDE68A">🎯</div>
-    <div>
-      <div class="sec-title">목표가 & 트레일링</div>
-      <div class="sec-sub" style="color:#F59E0B">수익 극대화 전략</div>
-    </div>
-  </div>
-
-  <div class="target-row"><div class="dot" style="background:#FDE68A"></div><div style="flex:1"><div class="target-label">1차 목표가</div><div class="target-formula">매수가 + ATR × 1.5</div></div><span class="tag" style="background:#FEF9C3;color:#92400E;border:1px solid rgba(253,230,138,.3)">30% 매도</span></div>
-  <div class="target-row"><div class="dot" style="background:#FCD34D"></div><div style="flex:1"><div class="target-label">2차 목표가</div><div class="target-formula">매수가 + ATR × 2.0</div></div><span class="tag" style="background:#FEF08A;color:#854D0E;border:1px solid rgba(252,211,77,.3)">30% 매도</span></div>
-  <div class="target-row"><div class="dot" style="background:#F59E0B"></div><div style="flex:1"><div class="target-label">3차 목표가</div><div class="target-formula">매수가 + ATR × 3.0</div></div><span class="tag" style="background:#FFFBEB;color:#F59E0B;border:1px solid rgba(245,158,11,.3)">30% 매도</span></div>
-  <div class="target-row"><div class="dot" style="background:#D97706"></div><div style="flex:1"><div class="target-label">나머지 10%</div><div class="target-formula">트레일링 스탑 — 최고가 − ATR×1.0</div></div><span class="tag" style="background:#FED7AA;color:#7C2D12;border:1px solid rgba(217,119,6,.3)">추적 매도</span></div>
-
-  <div class="card" style="background:#FFFBEB;border-color:#FDE68A;margin-top:16px">
-    <div class="card-label" style="color:#F59E0B">트레일링 스탑 원칙</div>
-    <div class="rule-item"><span class="arrow" style="color:#F59E0B">▸</span>최고가 갱신될 때마다 업데이트</div>
-    <div class="rule-item"><span class="arrow" style="color:#F59E0B">▸</span>한 번 올라간 손절선 절대 내리지 않음</div>
-    <div class="rule-item"><span class="arrow" style="color:#F59E0B">▸</span>목표가는 매수 시점 확정 후 절대 높이지 않음</div>
-    <div class="rule-item"><span class="arrow" style="color:#F59E0B">▸</span>상승 시 기준 = <strong>최고가</strong> / 매도 판단 = <strong>종가</strong></div>
-  </div>
-
-  <div class="calc-wrap">
-    <div class="calc-label">목표가 & 트레일링 스탑 계산기</div>
-    <div class="calc-inputs">
-      <div class="inp-wrap"><div class="inp-label">매수가 (원)</div><input class="inp" type="number" id="t_buy" value="35400" step="100" oninput="calcTrail()"></div>
-      <div class="inp-wrap"><div class="inp-label">ATR 14 (원)</div><input class="inp" type="number" id="t_atr" value="2766" step="10" oninput="calcTrail()"></div>
-      <div class="inp-wrap" style="grid-column:span 2"><div class="inp-label">현재 최고가 (원) — 트레일링 스탑 계산용</div><input class="inp" type="number" id="t_high" value="40000" step="100" oninput="calcTrail()"></div>
-    </div>
-    <div class="calc-results">
-      <div class="res-card" style="background:#FEFCE8;border-color:#FCD34D"><div class="res-label">1차 목표 (×1.5)</div><div class="res-val" id="t_t1" style="color:#D97706">-</div><div class="res-sub" id="t_t1p">30% 매도</div></div>
-      <div class="res-card" style="background:#FEF9C3;border-color:#F59E0B"><div class="res-label">2차 목표 (×2.0)</div><div class="res-val" id="t_t2" style="color:#B45309">-</div><div class="res-sub" id="t_t2p">30% 매도</div></div>
-      <div class="res-card" style="background:#FEF2F2;border-color:#FCA5A5"><div class="res-label">트레일링 손절가</div><div class="res-val" id="t_trail" style="color:#DC2626">-</div><div class="res-sub">최고가 − ATR</div></div>
-    </div>
-  </div>
-</div>
 
 <!-- ⑤ 추가매수 -->
 <div class="section" id="sec-additional">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#F5F3FF;border:1px solid #DDD6FE">➕</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">➕</div>
     <div>
       <div class="sec-title">추가매수 ATR</div>
-      <div class="sec-sub" style="color:#8B5CF6">피라미딩 vs 물타기</div>
+      <div class="sec-sub" style="color:#FFFFFF">피라미딩 vs 물타기</div>
     </div>
   </div>
 
@@ -458,6 +397,27 @@ button:disabled{opacity:.3;cursor:default}
     <div class="rule-item"><span class="arrow" style="color:#EF4444">▸</span>기존 손절가보다 낮으면 기존 손절가 유지</div>
   </div>
 
+  <!-- 물타기 계산기 -->
+  <div class="calc-wrap" style="border-color:#FECACA">
+    <div class="calc-label" style="color:#DC2626">⚠️ 물타기 후 ATR 재계산기</div>
+
+    <div style="background:#FFF1F2;border:1px solid #FECDD3;border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:12px;color:#9F1239;font-weight:600">
+      원칙적 금지 — 손절가 이탈 전, 지지선 반등 신호 확인 시만 사용
+    </div>
+
+    <div class="calc-inputs">
+      <div class="inp-wrap"><div class="inp-label">1차 매수가 (원)</div><input class="inp" type="number" id="av_p1" value="35400" step="100" oninput="calcAvg()"></div>
+      <div class="inp-wrap"><div class="inp-label">1차 수량 (주)</div><input class="inp" type="number" id="av_q1" value="100" step="1" oninput="calcAvg()"></div>
+      <div class="inp-wrap"><div class="inp-label">물타기 매수가 (원)</div><input class="inp" type="number" id="av_p2" value="31000" step="100" oninput="calcAvg()"></div>
+      <div class="inp-wrap"><div class="inp-label">물타기 수량 (주)</div><input class="inp" type="number" id="av_q2" value="50" step="1" oninput="calcAvg()"></div>
+      <div class="inp-wrap"><div class="inp-label">물타기 시점 ATR (원)</div><input class="inp" type="number" id="av_atr" value="3200" step="10" oninput="calcAvg()"></div>
+      <div class="inp-wrap"><div class="inp-label">총자산 (원)</div><input class="inp" type="number" id="av_asset" value="100000000" step="1000000" oninput="calcAvg()"></div>
+    </div>
+
+    <!-- 결과 -->
+    <div id="av_result"></div>
+  </div>
+
   <div class="card" style="background:#F5F3FF;border-color:#C4B5FD">
     <div class="card-label" style="color:#8B5CF6">추가매수 전 체크리스트</div>
     <div class="rule-item"><span class="arrow" style="color:#8B5CF6">▸</span>현재 포지션 손익 확인</div>
@@ -470,10 +430,10 @@ button:disabled{opacity:.3;cursor:default}
 <!-- ⑥ 보완지표 -->
 <div class="section" id="sec-supplement">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#DBEAFE;border:1px solid #BAE6FD">🔧</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">🔧</div>
     <div>
       <div class="sec-title">ATR 보완 지표</div>
-      <div class="sec-sub" style="color:#06B6D4">ATR 단독으로는 부족하다</div>
+      <div class="sec-sub" style="color:#FFFFFF">ATR 단독으로는 부족하다</div>
     </div>
   </div>
 
@@ -496,17 +456,17 @@ button:disabled{opacity:.3;cursor:default}
 <!-- ⑦ 3초루틴 -->
 <div class="section" id="sec-routine">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#FFF5F5;border:1px solid #FECACA">⚡</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">⚡</div>
     <div>
       <div class="sec-title">매수 전 3초 루틴</div>
-      <div class="sec-sub" style="color:#EF4444">습관으로 만들어야 할 것</div>
+      <div class="sec-sub" style="color:#FFFFFF">습관으로 만들어야 할 것</div>
     </div>
   </div>
 
   <div class="routine-grid">
-    <div class="routine-card" style="background:#FFF5F5"><div class="routine-num">①</div><div class="routine-title">ATR% 확인</div><div class="routine-sub">차트 하단 ATR 14 수치 읽기</div></div>
-    <div class="routine-card" style="background:rgba(239,68,68,.09)"><div class="routine-num">②</div><div class="routine-title">손절가 계산</div><div class="routine-sub">매수가 − ATR × 1.5</div></div>
-    <div class="routine-card" style="background:rgba(239,68,68,.12)"><div class="routine-num">③</div><div class="routine-title">매수금액 계산</div><div class="routine-sub">허용손실 ÷ 손절폭%</div></div>
+    <div class="routine-card"><div class="routine-num" style="color:#1B2A4A">①</div><div class="routine-title">ATR% 확인</div><div class="routine-sub">차트 하단 ATR 14 수치 읽기</div></div>
+    <div class="routine-card"><div class="routine-num" style="color:#1B2A4A">②</div><div class="routine-title">손절가 계산</div><div class="routine-sub">매수가 − ATR × 1.5</div></div>
+    <div class="routine-card"><div class="routine-num" style="color:#1B2A4A">③</div><div class="routine-title">매수금액 계산</div><div class="routine-sub">허용손실 ÷ 손절폭%</div></div>
   </div>
 
   <div class="card">
@@ -524,7 +484,7 @@ button:disabled{opacity:.3;cursor:default}
   <div class="card" style="background:#FFF5F5;border-color:#FECACA;text-align:center;margin-top:14px">
     <div style="font-size:13px;color:#EF4444;font-weight:700;line-height:1.8">
       지식 10% + 실행 90% = 수익<br>
-      <span style="color:#94A3B8;font-weight:400;font-size:12px">아는 것과 하는 것은 완전히 다릅니다</span>
+      <span style="color:#475569;font-weight:400;font-size:12px">아는 것과 하는 것은 완전히 다릅니다</span>
     </div>
   </div>
 </div>
@@ -532,10 +492,10 @@ button:disabled{opacity:.3;cursor:default}
 <!-- ⑤ 눌림목 매수 타이밍 -->
 <div class="section" id="sec-pullback">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#FFF1F2;border:1px solid #FECDD3">📉</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">📉</div>
     <div>
       <div class="sec-title">눌림목 매수 타이밍</div>
-      <div class="sec-sub" style="color:#E11D48">ATR로 하락 매수 구간 계산</div>
+      <div class="sec-sub" style="color:#FFFFFF">ATR로 하락 매수 구간 계산</div>
     </div>
   </div>
 
@@ -594,10 +554,10 @@ button:disabled{opacity:.3;cursor:default}
 <!-- 💹 수익대응 -->
 <div class="section" id="sec-profit">
   <div class="sec-head">
-    <div class="sec-icon" style="background:#F5F3FF;border:1px solid #DDD6FE">💹</div>
+    <div class="sec-icon" style="background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4)">💹</div>
     <div>
       <div class="sec-title">수익 대응 전략</div>
-      <div class="sec-sub" style="color:#7C3AED">ATR 배수 + 역피라미딩</div>
+      <div class="sec-sub" style="color:#FFFFFF">ATR 배수 + 역피라미딩</div>
     </div>
   </div>
 
@@ -656,17 +616,65 @@ button:disabled{opacity:.3;cursor:default}
 <div class="bottom-nav">
   <div class="bottom-inner">
     <button class="nav-prev" id="btn-prev" onclick="moveSec(-1)">← 이전</button>
-    <div class="nav-page" id="nav-page">1 / 9</div>
+    <div class="nav-page" id="nav-page">1 / 7</div>
     <button class="nav-next" id="btn-next" onclick="moveSec(1)">다음 →</button>
   </div>
 </div>
 
 <script>
-const IDS = ['what','stoploss','position','target','pullback','profit','additional','supplement','routine'];
+const IDS = ['calc','stoploss','pullback','profit','additional','supplement','routine'];
 let cur = 0;
 let mult1 = 1.5, multP = 1.5;
 
-// 천단위 금액 표시
+// ── 통합 계산기 ──────────────────────────────────────
+let multMain = 1.5;
+function setMainMult(btn){
+  multMain = parseFloat(btn.dataset.m);
+  document.querySelectorAll('#sec-calc .mult-btn').forEach(b=>b.classList.toggle('active',b===btn));
+  calcMain();
+}
+function calcMain(){
+  const price = +document.getElementById('m_price').value || 0;
+  const atr   = +document.getElementById('m_atr').value   || 0;
+  const asset = +document.getElementById('m_asset').value || 0;
+  const high  = +document.getElementById('m_high').value  || 0;
+  if(!price||!atr) return;
+  const atrPct  = (atr/price*100).toFixed(2);
+  const slPrice = Math.round(price - atr*multMain);
+  const slPct   = (atr*multMain/price*100).toFixed(1);
+  const loss    = Math.round(asset*0.01);
+  const slPctN  = atr*multMain/price*100;
+  const amt     = slPctN ? Math.round(loss/slPctN*100) : 0;
+  const qty     = price  ? Math.floor(amt/price) : 0;
+  const t1      = Math.round(price + atr*1.5);
+  const t2      = Math.round(price + atr*2.0);
+  const t3      = Math.round(price + atr*3.0);
+  const trail   = high>0 ? Math.round(high - atr) : 0;
+  const rr      = atr*multMain ? (atr*3/(atr*multMain)).toFixed(2) : 0;
+  document.getElementById('m_atrpct').textContent  = atrPct+'%';
+  document.getElementById('m_slprice').textContent = wonFull(slPrice);
+  document.getElementById('m_slpct').textContent   = '-'+slPct+'%';
+  document.getElementById('m_amt').textContent     = won(amt);
+  document.getElementById('m_qty').textContent     = qty.toLocaleString()+'주';
+  document.getElementById('m_t1').textContent      = wonFull(t1);
+  document.getElementById('m_t1p').textContent     = '+'+(atr*1.5/price*100).toFixed(1)+'% · 50%매도';
+  document.getElementById('m_t2').textContent      = wonFull(t2);
+  document.getElementById('m_t2p').textContent     = '+'+(atr*2/price*100).toFixed(1)+'% · 30%매도';
+  document.getElementById('m_t3').textContent      = wonFull(t3);
+  document.getElementById('m_t3p').textContent     = '+'+(atr*3/price*100).toFixed(1)+'% · 20%매도';
+  document.getElementById('m_trail').textContent   = trail>0 ? wonFull(trail) : '최고가 입력';
+  document.getElementById('m_loss').textContent    = won(loss);
+  const rrEl = document.getElementById('m_rr');
+  rrEl.textContent = rr+'x';
+  rrEl.style.color = rr>=2?'#059669':rr>=1?'#D97706':'#DC2626';
+}
+// 구버전 호환용 (다른 탭 내부 참조 혹시 있을 경우 대비)
+function calcAll(){ calcMain(); }
+function calcPos(){ calcMain(); }
+function calcTrail(){ calcMain(); }
+function setMult(btn){ setMainMult(btn); }
+function setPMult(btn){ setMainMult(btn); }
+// ────────────────────────────────────────────────────
 function won(n){
   if(n>=100000000) return (n/100000000).toFixed(2).replace(/\.?0+$/,'')+'억원';
   if(n>=10000) return Math.round(n/10000).toLocaleString()+'만원';
@@ -695,79 +703,7 @@ document.querySelectorAll('.nav-btn').forEach(b=>{
   });
 });
 
-// Calc 1 (ATR이란 탭)
-function setMult(btn){
-  mult1=parseFloat(btn.dataset.m);
-  document.querySelectorAll('#calc1 .mult-btn').forEach(b=>b.classList.toggle('active',b===btn));
-  calcAll();
-}
-function calcAll(){
-  const price=+document.getElementById('c1_price').value||0;
-  const atr=+document.getElementById('c1_atr').value||0;
-  const asset=+document.getElementById('c1_asset').value||0;
-  const atrPct=(atr/price*100);
-  const slPct=atr*mult1/price*100;
-  const slPrice=Math.round(price-atr*mult1);
-  const loss=Math.round(asset*0.01);
-  const amt=slPct?Math.round(loss/slPct*100):0;
-  const qty=price?Math.floor(amt/price):0;
-  const t1=Math.round(price+atr*1.5);
-  const t2=Math.round(price+atr*2.0);
-  const t3=Math.round(price+atr*3.0);
-  const rr=atr*mult1?(atr*3/(atr*mult1)).toFixed(2):0;
-  document.getElementById('r_atrpct').textContent=atrPct.toFixed(2)+'%';
-  document.getElementById('r_slpct').textContent=slPct.toFixed(2)+'%';
-  document.getElementById('r_slprice').textContent=wonFull(slPrice);
-  document.getElementById('r_amt').textContent=won(amt);
-  document.getElementById('r_qty').textContent=qty.toLocaleString()+'주';
-  document.getElementById('r_t1').textContent=wonFull(t1);
-  document.getElementById('r_t1p').textContent='+'+(atr*1.5/price*100).toFixed(1)+'%';
-  document.getElementById('r_t2').textContent=wonFull(t2);
-  document.getElementById('r_t2p').textContent='+'+(atr*2.0/price*100).toFixed(1)+'%';
-  document.getElementById('r_t3').textContent=wonFull(t3);
-  document.getElementById('r_t3p').textContent='+'+(atr*3.0/price*100).toFixed(1)+'%';
-  const rrEl=document.getElementById('r_rr');
-  if(rrEl){ rrEl.textContent=rr+'x'; rrEl.style.color=rr>=2?'#059669':rr>=1?'#D97706':'#DC2626'; }
-}
-
-// Calc Position
-function setPMult(btn){
-  multP=parseFloat(btn.dataset.m);
-  document.querySelectorAll('#sec-position .mult-btn').forEach(b=>b.classList.toggle('active',b===btn));
-  calcPos();
-}
-function calcPos(){
-  const price=+document.getElementById('p_price').value||0;
-  const atr=+document.getElementById('p_atr').value||0;
-  const asset=+document.getElementById('p_asset').value||0;
-  const loss=Math.round(asset*0.01);
-  const slPct=atr*multP/price*100;
-  const slPrice=Math.round(price-atr*multP);
-  const amt=slPct?Math.round(loss/slPct*100):0;
-  const qty=price?Math.floor(amt/price):0;
-  document.getElementById('p_loss').textContent=won(loss);
-  document.getElementById('p_slpct').textContent=slPct.toFixed(2)+'%';
-  document.getElementById('p_slprice').textContent=wonFull(slPrice);
-  document.getElementById('p_amt').textContent=won(amt);
-  document.getElementById('p_qty').textContent=qty.toLocaleString()+'주';
-}
-
-// Calc Trailing
-function calcTrail(){
-  const buy=+document.getElementById('t_buy').value||0;
-  const atr=+document.getElementById('t_atr').value||0;
-  const high=+document.getElementById('t_high').value||0;
-  const t1=Math.round(buy+atr*1.5);
-  const t2=Math.round(buy+atr*2.0);
-  const trail=Math.round(high-atr);
-  document.getElementById('t_t1').textContent=wonFull(t1);
-  document.getElementById('t_t1p').textContent='+'+(atr*1.5/buy*100).toFixed(1)+'% · 30% 매도';
-  document.getElementById('t_t2').textContent=wonFull(t2);
-  document.getElementById('t_t2p').textContent='+'+(atr*2/buy*100).toFixed(1)+'% · 30% 매도';
-  document.getElementById('t_trail').textContent=high>0?wonFull(trail):'최고가 입력';
-}
-
-// Checklist
+// Checklist// Checklist
 const checks=['20일선 우상향인가?','ADX 25 이상인가?','지지선·전 저점 근처인가?','거래량 평균 이상인가?','CCI 0 이상인가?','ATR 계산했는가?','매수금액 공식 계산했는가?'];
 const checkState={};
 const cl=document.getElementById('checklist');
@@ -974,7 +910,108 @@ function calcPB(){
     <div class="res-card" style="background:#F0FDF4;border-color:#86EFAC"><div class="res-label">RR비율</div><div class="res-val" style="color:${rrColor}">${rr}x</div><div class="res-sub">2차 기준</div></div>`;
 }
 // ────────────────────────────────────────────────────
-calcAll(); calcPos(); calcTrail(); calcPB(); calcProfit();
+// ── 물타기 평균단가 & ATR 재계산 ──────────────────
+function calcAvg(){
+  const p1    = +document.getElementById('av_p1').value    || 0;
+  const q1    = +document.getElementById('av_q1').value    || 0;
+  const p2    = +document.getElementById('av_p2').value    || 0;
+  const q2    = +document.getElementById('av_q2').value    || 0;
+  const atr   = +document.getElementById('av_atr').value   || 0;
+  const asset = +document.getElementById('av_asset').value || 0;
+  if(!p1||!q1||!p2||!q2||!atr) return;
+
+  const totalQty  = q1 + q2;
+  const totalAmt  = p1*q1 + p2*q2;
+  const avgPrice  = Math.round(totalAmt / totalQty);
+  const slPrice   = Math.round(avgPrice - atr*1.5);
+  const slPct     = (atr*1.5/avgPrice*100).toFixed(2);
+  const t1        = Math.round(avgPrice + atr*1.5);
+  const t2        = Math.round(avgPrice + atr*2.0);
+  const t3        = Math.round(avgPrice + atr*3.0);
+  const riskWon   = Math.round((avgPrice - slPrice) * totalQty);
+  const riskPct   = (riskWon / asset * 100).toFixed(2);
+  const riskOk    = riskPct <= 2;
+  const p1pnl     = ((avgPrice-p1)/p1*100).toFixed(1);
+  const atrPct    = (atr/avgPrice*100).toFixed(2);
+  const rr        = (atr*3/(atr*1.5)).toFixed(2);
+
+  document.getElementById('av_result').innerHTML = `
+    <div style="margin-top:4px">
+
+      <!-- 평균단가 -->
+      <div style="background:#F0F9FF;border:1.5px solid #BAE6FD;border-radius:10px;padding:14px;margin-bottom:10px">
+        <div style="font-size:11px;color:#0369A1;font-weight:800;margin-bottom:10px;letter-spacing:1px">평균단가 계산</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+          <div style="text-align:center">
+            <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">평균단가</div>
+            <div style="font-size:16px;font-weight:900;color:#0369A1">${wonFull(avgPrice)}</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">총 수량</div>
+            <div style="font-size:16px;font-weight:900;color:#1A202C">${totalQty.toLocaleString()}주</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">총 투입금액</div>
+            <div style="font-size:16px;font-weight:900;color:#1A202C">${won(totalAmt)}</div>
+          </div>
+        </div>
+        <div style="margin-top:8px;padding:8px;background:rgba(0,0,0,.04);border-radius:6px;font-size:11px;color:#475569;text-align:center">
+          1차 대비 단가 낮아짐: <strong style="color:#0369A1">${p1pnl}%</strong> 개선
+        </div>
+      </div>
+
+      <!-- 재계산된 손절·목표 -->
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px">
+        <div style="background:#FEF2F2;border:1.5px solid #FCA5A5;border-radius:10px;padding:12px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:4px">새 손절가</div>
+          <div style="font-size:15px;font-weight:900;color:#DC2626">${wonFull(slPrice)}</div>
+          <div style="font-size:11px;color:#475569;margin-top:3px">-${slPct}% / ATR×1.5</div>
+        </div>
+        <div style="background:${riskOk?'#F0FDF4':'#FFF1F2'};border:1.5px solid ${riskOk?'#A7F3D0':'#FECDD3'};border-radius:10px;padding:12px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:4px">손절 시 손실</div>
+          <div style="font-size:15px;font-weight:900;color:${riskOk?'#059669':'#DC2626'}">${won(riskWon)}</div>
+          <div style="font-size:11px;color:#475569;margin-top:3px">총자산 ${riskPct}% ${riskOk?'✅':'⚠️ 과다'}</div>
+        </div>
+      </div>
+
+      <!-- 목표가 -->
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px">
+        <div style="background:#FEF9C3;border:1.5px solid #FDE68A;border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">1차 목표</div>
+          <div style="font-size:13px;font-weight:800;color:#D97706">${wonFull(t1)}</div>
+          <div style="font-size:10px;color:#475569;margin-top:2px">+${(atr*1.5/avgPrice*100).toFixed(1)}%</div>
+        </div>
+        <div style="background:#FEFCE8;border:1.5px solid #FCD34D;border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">2차 목표</div>
+          <div style="font-size:13px;font-weight:800;color:#B45309">${wonFull(t2)}</div>
+          <div style="font-size:10px;color:#475569;margin-top:2px">+${(atr*2/avgPrice*100).toFixed(1)}%</div>
+        </div>
+        <div style="background:#FFF7ED;border:1.5px solid #FED7AA;border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">3차 목표</div>
+          <div style="font-size:13px;font-weight:800;color:#92400E">${wonFull(t3)}</div>
+          <div style="font-size:10px;color:#475569;margin-top:2px">+${(atr*3/avgPrice*100).toFixed(1)}%</div>
+        </div>
+      </div>
+
+      <!-- ATR% & RR -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;padding:10px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">ATR% (평균단가 기준)</div>
+          <div style="font-size:14px;font-weight:800;color:#0369A1">${atrPct}%</div>
+        </div>
+        <div style="background:#F0FDF4;border:1px solid #86EFAC;border-radius:8px;padding:10px;text-align:center">
+          <div style="font-size:10px;color:#64748B;font-weight:700;margin-bottom:3px">RR비율 (3차 기준)</div>
+          <div style="font-size:14px;font-weight:800;color:${rr>=2?'#059669':rr>=1?'#D97706':'#DC2626'}">${rr}x</div>
+        </div>
+      </div>
+
+      ${!riskOk?`<div style="background:#FFF1F2;border:1px solid #FECDD3;border-radius:8px;padding:10px;margin-top:10px;font-size:12px;color:#9F1239;font-weight:700;text-align:center">
+        ⚠️ 총 리스크 ${riskPct}% 과다 — 물타기 수량을 ${Math.floor(q2*0.6)}주 이하로 줄이세요
+      </div>`:''}
+    </div>`;
+}
+// ────────────────────────────────────────────────────
+calcMain(); calcPB(); calcProfit(); calcAvg();
 showSec(0);
 
 // PWA 스크롤 수정 - 터치 이벤트가 막히지 않도록
